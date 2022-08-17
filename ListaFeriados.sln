@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaFeriados", "ListaFeriados\ListaFeriados.csproj", "{31AD67AB-3AFA-470F-BD61-01FFF8A05EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaFeriados", "ListaFeriados\ListaFeriados.csproj", "{31AD67AB-3AFA-470F-BD61-01FFF8A05EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feriadosnacionais", "Feriadosnacionais\Feriadosnacionais.csproj", "{FF2ED31D-4E89-4319-A6D1-EF68504576DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaParcelasDiasUteis", "ListaParcelasDiasUteis\ListaParcelasDiasUteis.csproj", "{404A2001-7F93-455C-9F49-ECDC3DD6F803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{31AD67AB-3AFA-470F-BD61-01FFF8A05EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AD67AB-3AFA-470F-BD61-01FFF8A05EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AD67AB-3AFA-470F-BD61-01FFF8A05EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2ED31D-4E89-4319-A6D1-EF68504576DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2ED31D-4E89-4319-A6D1-EF68504576DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2ED31D-4E89-4319-A6D1-EF68504576DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2ED31D-4E89-4319-A6D1-EF68504576DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404A2001-7F93-455C-9F49-ECDC3DD6F803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404A2001-7F93-455C-9F49-ECDC3DD6F803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404A2001-7F93-455C-9F49-ECDC3DD6F803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404A2001-7F93-455C-9F49-ECDC3DD6F803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
