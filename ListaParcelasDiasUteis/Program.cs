@@ -81,12 +81,12 @@ static void ListaParcelasValidaData()
 
 static DateTime RetornaDiaUtil(DateTime data)
 {
-    switch ((int)data.DayOfWeek)
+    switch (data.DayOfWeek)
     {
-        case 6:
+        case DayOfWeek.Saturday:
             data = data.AddDays(2);
             break;
-        case 0:
+        case DayOfWeek.Monday:
             data = data.AddDays(1);
             break;
     }
